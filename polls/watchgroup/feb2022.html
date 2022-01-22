@@ -1,29 +1,122 @@
 <head>
-  <link type="text/css" rel="stylesheet" href="https://www.opavote.com/static/css/widget.css" />
-  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://www.opavote.com/static/css/widget.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://www.gstatic.com/charts/loader.js"
+  ></script>
+
+  <style>
+    #widget-wrapper-wrapper {
+      text-align: center;
+    }
+    #widget-wrapper {
+      display: inline-block;
+      text-align: left;
+    }
+    #opavote-widget {
+      max-width: 1000px;
+      min-width: 600px;
+      background: #eee;
+      border-radius: 10px;
+      padding: 10px;
+    }
+    #trailers {
+      text-align: center;
+    }
+    #trailers iframe {
+      display: inline;
+    }
+  </style>
 </head>
 <body>
-  
-  <div id="opavote-widget">
-    <div id="opavote-voting">
-      <h2>Poll Title</h2>
-      <div id="ballot-0"></div>
-      <div id="vote-button"></div>
+  <div id="widget-wrapper-wrapper">
+    <div id="widget-wrapper">
+      <div id="opavote-widget">
+        <div id="opavote-voting">
+          <h1>What should we watch for Feb/March 2022?</h1>
+          <h2>
+            Please rank the following shows in order of interest and then click
+            "Vote!"
+          </h2>
+          <h2>Trailers are provided below.</h2>
+          <div id="ballot-0"></div>
+          <div id="vote-button"></div>
+        </div>
+        <div id="opavote-voted">
+          <h2>Poll Results</h2>
+          <div id="opavote-results"></div>
+        </div>
+        <div id="opavote-logo">
+          <p>
+            Create your own poll with
+            <a href="https://www.opavote.com">OpaVote</a>
+          </p>
+        </div>
+      </div>
     </div>
-    <div id="opavote-voted">
-      <h2>Poll Results</h2>
-      <div id="opavote-results"></div>
-    </div>
-    <div id="opavote-logo">
-      <p>Create your own poll with <a href="https://www.opavote.com">OpaVote</a></p>
-    </div>
-  </div>
-  
-  
-  <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rOJ1cw6mohw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-  <script type="text/javascript" src="https://www.opavote.com/static/js/widget.min.js"></script>
-  <script type="text/javascript">election.widget(5319373481836544);</script>
+  <div id="trailers">
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/rOJ1cw6mohw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/rOJ1cw6mohw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/rOJ1cw6mohw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/rOJ1cw6mohw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/rOJ1cw6mohw"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+
+  <script
+    type="text/javascript"
+    src="https://www.opavote.com/static/js/widget.min.js"
+  ></script>
+  <script type="text/javascript">
+    election.widget(5319373481836544);
+  </script>
 </body>
